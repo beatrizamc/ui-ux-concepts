@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&family=Nunito:wght@400;600&display=swap');
+
+:root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::selection {
+    background: rgba(214, 161, 145, 0.582);
+}
+
+
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #fff5f7;
+    color: #5a4a52;
+    line-height: 1.6;
+}
+
+h1, h2, .tag {
+    font-family: 'Quicksand', sans-serif;
+}
+
+img{max-width: 100%; display: block;}
+
+.header1 {
+    background: linear-gradient(135deg, #ffd6e0, #ffe8ee);
+    padding: 60px 20px;
+    text-align: center;
+    border-bottom: 4px solid #f5b8c4;
+}
+
+.tag {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #d97ea0;
+    font-weight: 600;
+    font-size: 0.85rem;
+    padding: 6px 16px;
+    border-radius: 20px;
+    margin-bottom: 16px;
+}
+
+.header1 h1 {
+    font-size: 2.3rem;
+    color: #a15a72;
+    margin-bottom: 16px;
+}
+
+.headerimg{
+    width: 260px;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 6px solid var(--white);
+    box-shadow: 0 10px 26px -8px rgba(255, 158, 199, 0.55);
+    margin: 0 auto 22px;
+}
+
+.lead {
+    max-width: 650px;
+    margin: 0 auto;
+    color: #6e5560;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+section {
+    background-color: #ffffff;
+    border: 1px solid #f5d9e0;
+    border-radius: 16px;
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 12px rgba(218, 138, 160, 0.08);
+}
+
+h2 {
+    color: #c96b8a;
+    font-size: 1.4rem;
+    margin-bottom: 16px;
+    border-left: 5px solid #f5a9bd;
+    padding-left: 10px;
+}
+
+.blocos2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.blocos2img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 18px;
+    flex-shrink: 0;
+}
+
+ul, ol {
+    padding-left: 24px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+li::marker {
+    color: #d97ea0;
+    font-weight: 600;
+}
+
+.table-wrap {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    min-width: 700px;
+}
+
+th {
+    background-color: #f5a9bd;
+    color: #ffffff;
+    padding: 12px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.9rem;
+}
+
+td {
+    background-color: #fff0f4;
+    padding: 12px;
+    font-size: 0.85rem;
+    border: 1px solid #ffe0e8;
+    vertical-align: top;
+}
+
+tr:hover td {
+    background-color: #ffe4ec;
+}
+
+.blocos3{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.blocos3img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 18px;
+    flex-shrink: 0;
+}
+
+.cards-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.card-molde {
+    flex-grow: 1;
+    min-height: 140px; 
+}
+
+.card {
+    display: none; 
+    background-color: #fff0f4;
+    border: 1px solid #ffe0e8;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+}
+
+.card-ativo {
+    display: block; 
+}
+
+.card-ano {
+    display: inline-block;
+    background-color: #f5a9bd;
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    padding: 4px 12px;
+    border-radius: 15px;
+    margin-bottom: 12px;
+}
+
+.btn {
+    background-color: #f5a9bd;
+    color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    flex-shrink: 0;
+}
+
+.btn:hover {
+    background-color: #d97ea0;
+}
+
+footer {
+    text-align: center;
+    padding: 24px;
+    color: #b17a8e;
+    font-size: 0.85rem;
+}
+
+@media (max-width: 600px) {
+    .header1 h1 {
+        font-size: 1.8rem;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    .headerimg{
+        width: 190px;
+        height: 190px;
+    }
+}

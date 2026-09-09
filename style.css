@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f0eb;
+    color: #38322e;
+    font-family: 'Inter', sans-serif;
+    padding: 40px 20px;
+}
+
+.page_1 {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.header_1 {
+    border-bottom: 1px solid #dcd4cc;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.header_1 .tag {
+    font-size: 0.75rem;
+    letter-spacing: 2px;
+    color: #a3968c;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.header_1 .lead {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 2.8rem;
+    color: #2b2521;
+    line-height: 1.1;
+}
+
+
+.header_2 {
+    background-color: #f3dfcb;
+    padding: 25px 30px;
+    margin-bottom: 35px;
+}
+
+.header_2 .tag {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 2.2rem;
+    color: #2b2521;
+}
+
+
+.row {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 40px;
+    align-items: start;
+}
+
+
+.nav_principal ul {
+    list-style: none;
+}
+
+.nav_principal li {
+    border-bottom: 1px solid #e0d8d0;
+}
+
+.nav_principal a {
+    display: flex;
+    padding: 18px 0;
+    text-decoration: none;
+    color: inherit;
+    transition: opacity 0.2s ease;
+}
+
+.nav_principal a:hover {
+    opacity: 0.6;
+}
+
+.nav_principal .num {
+    font-size: 0.75rem;
+    color: #a3968c;
+    margin-right: 15px;
+    margin-top: 3px;
+}
+
+.nav_principal h3 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #2b2521;
+    margin-bottom: 4px;
+}
+
+.nav_principal p {
+    font-size: 0.8rem;
+    color: #7d726a;
+    line-height: 1.4;
+}
+
+
+.container_img {
+    display: flex;
+    flex-direction: column;
+}
+
+.row img {
+    width: 75%;
+    height: auto;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.container_img.caption {
+    font-size: 0.65rem;
+    letter-spacing: 2px;
+    color: #8c827a;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 24px;
+    color: #2b2521;
+    font-size: 0.85rem;
+}
+.definicoes {
+    display: flex;
+    gap: 20px;
+    margin-top: 24px;
+    margin-bottom: 30px;
+}
+
+.card-def {
+    flex: 1;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 18px 20px;
+    border-radius: 8px;
+    border-left: 4px solid #f3dfcb; 
+}
+
+.card-def h3 {
+    font-size: 1.1rem;
+    color: #2b2b2b;
+    margin-bottom: 8px;
+}
+
+.card-def p {
+    font-size: 0.9rem;
+    color: #555555;
+    line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+    .definicoes {
+        flex-direction: column;
+    }
+}
