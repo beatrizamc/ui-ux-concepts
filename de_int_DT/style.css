@@ -83,9 +83,9 @@ body {
 }
 
 .row {
-    display: flex;       
+    display: flex;        
     align-items: flex-start;
-    gap: 40px;             
+    gap: 40px;              
     margin: 0 auto;    
     max-width: 1000px;
 }
@@ -115,4 +115,24 @@ footer {
     margin: 40px auto 0;    
     padding: 20px 0;       
     color: #a3968c;        
+}
+@media (max-width: 768px) {
+    body {
+        padding: 20px 15px;
+    }
+
+    .row {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .imagem_processo {
+        flex: 1 1 100%;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .imagem img {
+        max-height: 250px;
+    }
 }
