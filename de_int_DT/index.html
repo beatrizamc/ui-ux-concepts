@@ -1,72 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Design Thinking</title>
-    <link rel="stylesheet" href="style.css"
+    <meta name="description" content="Conheça o Design Thinking e as etapas do processo de criação centrado no usuário.">
+    <title>Design Thinking | Do usuário ao desenvolvedor</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header class="hero">
+        <div class="container">
+            <p class="eyebrow">Desenvolvimento de interfaces</p>
+            <h1>Design Thinking</h1>
+            <p class="subtitle">Do usuário ao desenvolvedor</p>
 
-    <div class="titulo">
-        <header class="main_titulo">
-            <span class="tag">Design Thinking</span>
-            <p class="lead">do  usuário para o desenvolvedor</p>
-        </header>
-
-        <div class="imagem">
-            <img src="DT.jpg">
+            <figure class="hero-image">
+                <img src="DT.jpg" alt="Ilustração relacionada ao Design Thinking">
+            </figure>
         </div>
-    </div>
+    </header>
 
-    <main>
-        <div class="row">
+    <main class="container">
+        <section class="overview" aria-labelledby="concept-title">
+            <div class="intro">
+                <p class="section-label">01 — Conceito</p>
+                <h2 id="concept-title">O que é Design Thinking?</h2>
+                <p>
+                    Design Thinking é uma abordagem focada no ser humano que busca resolver problemas
+                    por meio da observação, do engajamento e da imersão no contexto do usuário.
+                    Em vez de considerar apenas o produto final, a metodologia coloca as necessidades
+                    e os desejos das pessoas no centro do desenvolvimento. Ao longo do processo,
+                    a equipe explora possibilidades, valida ideias e identifica oportunidades antes
+                    da implementação. Dessa forma, é possível reduzir riscos e criar soluções mais
+                    relevantes, funcionais e adequadas à vida cotidiana e à indústria.
+                </p>
+            </div>
 
-        <div class="define">
-        <div class="concept">
-            <header class="main_concept">
-                    <h3>O que é Design Thinking?</h3>
-                    <br>
-                    <p class="lead">Design Thinking é uma abordagem focada no ser humano que busca resolver problemas por meio da observação, do engajamento e da imersão com o usuário. 
-                        Em vez de focar apenas no produto final, essa metodologia coloca as necessidades reais e desejos do cliente no centro
-                    de todo processo de desenvolvimento. Através do ciclo criativo, a equipe consegue validar ideias e oportunidades 
-                antes de implementá-las de forma definitiva. Essa mentalidade reduz riscos e custos, o que permite que os desenvolvedores
-            e designers criem produtos significativos e funcionais para a vida cotidiana e industrial. </p>
-            </header>
-        </div>
+            <figure class="process-image">
+                <img src="DT_PROCESS.gif" alt="Representação visual das etapas do Design Thinking">
+                <figcaption>As etapas se conectam e podem ser revisitadas durante o projeto.</figcaption>
+            </figure>
+        </section>
 
-            <br> 
+        <section class="steps" aria-labelledby="steps-title">
+            <p class="section-label">02 — Etapas</p>
+            <h2 id="steps-title">Módulos do processo</h2>
 
-        <div class="subtitulo">
-        <header class="main_subtitulo">
-            <h3>Módulos do processo</h3>
-        </header> 
-       </div>
-
-
-       <div class="content">
-        <ol>
-            <li>Empatia: é necessário entender o cliente/usuário. Observar, engajar e praticar a imersão.</li>
-            <li>Definição do problema: a partir da fase 1, delimitamos as necessidades do público-alvo.</li>
-            <li>Ideação: como fazer e o que deve ser feito. Parte abstrata do projeto.</li>
-            <li>Prototipação: a ideia é testada e a inovação disruptiva é aplicada, ou seja, saímos de um padrão para outro.</li>
-            <li>Teste: o projeto é testado, reunindo feedbacks, melhorando designs anteriores e interagindo mais com o usuário.</li>
-        </ol>
-       </div>
-        </div>
-
-       <div class="imagem_processo">
-        <img src="DT_PROCESS.gif">
-       </div>
-
-    </div>
+            <ol class="steps-list">
+                <li>
+                    <h3>Empatia</h3>
+                    <p>Conhecer o usuário por meio da observação, do diálogo e da imersão em sua realidade.</p>
+                </li>
+                <li>
+                    <h3>Definição do problema</h3>
+                    <p>Organizar os aprendizados e delimitar a necessidade que a solução deverá atender.</p>
+                </li>
+                <li>
+                    <h3>Ideação</h3>
+                    <p>Explorar possibilidades e propor diferentes ideias para resolver o problema identificado.</p>
+                </li>
+                <li>
+                    <h3>Prototipação</h3>
+                    <p>Criar uma versão simples da solução para tornar a ideia concreta e facilitar sua avaliação.</p>
+                </li>
+                <li>
+                    <h3>Teste</h3>
+                    <p>Coletar feedback dos usuários, identificar melhorias e aperfeiçoar a proposta.</p>
+                </li>
+            </ol>
+        </section>
     </main>
-<br>
-<br>
-<br>
-    <footer>
-        <p>&copy; 2026 Design Thinking. Desenvolvimento de Interfaces - CEUB.</p>
+
+    <footer class="footer">
+        <p>&copy; 2026 Design Thinking · Desenvolvimento de Interfaces — CEUB</p>
     </footer>
-    
 </body>
 </html>
